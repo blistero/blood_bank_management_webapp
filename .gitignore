@@ -1,0 +1,49 @@
+# ── Python / Django ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.tox/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django
+*.sqlite3
+local_settings.py
+backend/staticfiles/
+backend/media/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# ── Node / React ───────────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# ── OS / Editor ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# ── Logs ───────────────────────────────────────────────────────────────────
+*.log
+
+# Claude Code session memory
+.claude/
